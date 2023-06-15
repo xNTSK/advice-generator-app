@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+button {
+  border: none;
+  background-color: hsl(150deg, 100%, 66%);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(50%);
+  transition: 0.5s;
+}
+button:hover {
+  box-shadow: 0 0 30px 3px hsl(150deg, 100%, 66%);
+  cursor: pointer;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main {
+  box-shadow: 30px 30px 60px 30px hsl(218deg, 23%, 14%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsl(217deg, 19%, 24%);
+}
+.main .imgmobile {
+  display: none;
+}
+.main h5 {
+  color: hsl(150deg, 100%, 66%);
+  letter-spacing: 0.25rem;
+}
+.main q {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    width: 339px;
+  }
+  .main .imgmobile {
+    display: block;
+  }
+  .main .imgdesktop {
+    display: none;
+  }
+  q {
+    width: 295px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    width: 550px;
+  }
+  q {
+    width: 444px;
+  }
+}/*# sourceMappingURL=style.css.map */
