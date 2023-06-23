@@ -1,4 +1,4 @@
-# Link to website preview: https://xntsk.github.io/advice-generator-app-main/
+# Link to website preview: https://xntsk.github.io/advice-generator-app/
 
 # Frontend Mentor - Advice generator app
 
